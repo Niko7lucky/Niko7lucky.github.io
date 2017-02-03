@@ -1,0 +1,193 @@
+body,html {
+	font-family: 'clan-book', 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'clan-med', 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+	background-color: #FFFFFF;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #333333;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li.active>a,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #1FBAD6;
+	background-color: #FFFFFF;
+}
+
+.navbar-brand > img {
+	height: 20px;
+}
+
+/* Accueil */
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../img/hero-bg-1.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 100px;
+}
+
+.hero-color {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+	opacity: 0.7;
+	top: 0;
+}
+
+.hero-cta {
+	text-align: right;
+	margin-top: 30vh;
+	color: #FFFFFF;
+}
+
+.hero-cta p {
+	font-size: 18px;
+}
+
+.hero-phone {
+	margin-top: 3vh;
+	max-height: 80vh;
+	padding-left: 50px;
+}
+
+.btn-cta {
+	font-size: 15px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	margin: 20px 0 0 20px;
+	line-height: 15px;
+}
+
+.btn-cta-white {
+	background-color: #FFFFFF;
+	color: #1FBAD6;
+}
+
+.btn-cta-outline {
+	background-color: transparent;
+	border: solid 2px #FFFFFF;
+	padding: 14px 29px;
+}
+
+.btn-cta-outline:hover {
+	background-color: #FFFFFF;
+}
+
+/* Fonctionnement */
+
+.section {
+	padding-top: 90px;
+	padding-bottom: 80px;
+}
+
+.fonctionement {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.fonctionement i {
+    font-size: 40px;
+    color: #1FBAD6;
+}
+
+/* Application */
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'clan-med', sans-serif;
+	font-size: 30px;
+}
+
+h2::after {
+	content: "";
+	display: block;
+	width: 60px;
+	border-bottom: solid 2px #1FBAD6;
+	margin: 20px auto;
+}
+
+.section-grey {
+	background-color: #FAFAFA;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: 'clan-book', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 70px;
+}
+
+.img-responsive {
+	margin: auto;
+}
+
+.feature-left {
+	text-align: right;
+}
+
+.feature-right {
+	text-align: left;
+}
+
+.usp {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.feature-right > .usp > i{
+	top: 0;
+	left: -50px;
+}
+
+.feature-left > .usp > i{
+	top: 0;
+	right: -50px;
+}
+
+.usp i {
+	position: absolute;
+	color: #1FBAD6;
+	font-size: 30px;
+}
+
+.feature-right > .usp:first-child,
+.feature-left > .usp:first-child {
+	margin-top: 100px;
+}
+
+/* Témoignages */
+
+.carousel-inner > .item > img {
+	margin: auto;
+}
+
+.carousel-inner > .item  {
+	text-align: center;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+
+
